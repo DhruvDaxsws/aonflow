@@ -1,0 +1,65 @@
+@import '../App.scss';
+
+.main{
+    background-image: url(../images/login/background.svg);
+    background-size: cover;
+    background-color: #004F84;
+    width: 100%;
+    height: 100vh;
+}
+
+div.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:white;
+    border-radius: 20px;
+    padding: 0;
+    @extend .shadow;
+}
+
+
+
+.non-login-section{
+    padding: 2rem;
+}
+
+.login-section{
+    background: #D0ECFF;
+    border-radius: 20px;
+}
+
+.login-image{
+    padding: 0;
+}
+.login-text{
+    padding: 0rem 4rem;
+}
+.login_logo{
+    padding: 3rem;
+    margin:1rem;
+    background-color: white;
+    font-size:3rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.login-form{
+    padding: 0 1rem;
+    div{
+        label{
+            margin: 0;
+            color: #0088E3;
+        }
+        input{
+            border-radius: 20px;
+            color: #0088E3; 
+        }
+    }
+}
+
+.forgot-password{
+    position: relative;
+    top: 8rem;
+}
